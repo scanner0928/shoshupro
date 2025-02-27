@@ -346,9 +346,9 @@
                         <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                             <?php include TEMPLATEPATH . '/inc/blog-article.php'; ?>
                         <?php endwhile; ?>
-                        <div class="blog-kaneshima">
+                        <!-- <div class="blog-kaneshima">
                             <img src="<?php echo get_template_directory_uri(); ?>/_assets/images/kaneshima/kaneshima-point.png" alt="" class="blog-kaneshima-img">
-                        </div>
+                        </div> -->
                     </div>
                     <p class="btn">
                         <a href="<?php echo esc_url(home_url('/blog/')); ?>">ブログ一覧へ</a>

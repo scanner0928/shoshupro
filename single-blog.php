@@ -10,9 +10,9 @@
                         <?php while (have_posts()) : the_post(); ?>
                             <?php include TEMPLATEPATH . '/inc/blog-article.php'; ?>
                         <?php endwhile; ?>
-                        <div class="blog-kaneshima">
+                        <!-- <div class="blog-kaneshima">
                             <img src="<?php echo get_template_directory_uri(); ?>/_assets/images/kaneshima/kaneshima-point.png" alt="" class="blog-kaneshima-img">
-                        </div>
+                        </div> -->
                     </div>
                 <?php endif; ?>
                 <?php
@@ -22,24 +22,24 @@
 
                 <nav class="blog-navigation post_prevnext" role="navigation">
 
-                    <?php if (!empty($prev_post)): ?>
-                        <div class="post_prevnext-previous">
+                    <div class="post_prevnext-previous">
+                        <?php if (!empty($prev_post)): ?>
                             <a href="<?php echo get_the_permalink($prev_post); ?>" rel="next">
                                 <div class="post_prevnext-linktext"><?php echo $prev_post->post_title; ?></div>
                             </a>
-                        </div>
-                    <?php endif; ?>
-                    <div class="post_prevnext-list">
-                        <a href="<?php echo esc_url(home_url('/blog')); ?>" rel="list">
-                            <div class="post_prevnext-linktext">ブログ一覧へ</div>
-                        </a>
+                        <?php endif; ?>
                     </div>
-                    <?php if (!empty($next_post)): ?>
-                        <div class="post_prevnext-next"><a href="<?php echo get_the_permalink($next_post); ?>" rel="next">
+                    <div class="post_prevnext-list">
+                        <p class="btn">
+                            <a href="<?php echo esc_url(home_url('/blog/')); ?>">ブログ一覧へ</a>
+                        </p>
+                    </div>
+                    <div class="post_prevnext-next"><a href="<?php echo get_the_permalink($next_post); ?>" rel="next">
+                            <?php if (!empty($next_post)): ?>
                                 <div class="post_prevnext-linktext"><?php echo $next_post->post_title; ?></div>
-                            </a>
-                        </div>
+                        </a>
                     <?php endif; ?>
+                    </div>
 
                 </nav>
 
