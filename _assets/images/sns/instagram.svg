@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="svg-instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	#svg-instagram .st0{fill:url(#SVGID_1_);}
+	#svg-instagram .st1{fill:#FFFFFF;}
+</style>
+<g id="レイヤー_1_00000095300664726672137730000008405915744471230639_">
+</g>
+<g id="Layer_1">
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.1105" y1="6.6068" x2="94.8785" y2="96.3748" gradientTransform="matrix(1 0 0 -1 0 101.4706)">
+			<stop  offset="0" style="stop-color:#FEE411"/>
+			<stop  offset="5.184586e-02" style="stop-color:#FEDB16"/>
+			<stop  offset="0.1381" style="stop-color:#FEC125"/>
+			<stop  offset="0.2481" style="stop-color:#FE983D"/>
+			<stop  offset="0.3762" style="stop-color:#FE5F5E"/>
+			<stop  offset="0.5" style="stop-color:#FE2181"/>
+			<stop  offset="1" style="stop-color:#9000DC"/>
+		</linearGradient>
+		<path class="st0" d="M82.5,100H17.4C7.8,100,0,92.2,0,82.5V17.4C0,7.8,7.8,0,17.4,0h65.1C92.2,0,100,7.8,100,17.4v65.1
+			C100,92.2,92.2,100,82.5,100z"/>
+		<g>
+			<g>
+				<g>
+					<g>
+						<path class="st1" d="M63.2,15.5H36.8c-11.7,0-21.3,9.6-21.3,21.3v26.4c0,11.7,9.6,21.3,21.3,21.3h26.4
+							c11.7,0,21.3-9.6,21.3-21.3V36.8C84.5,25,74.9,15.5,63.2,15.5z M76.8,63.2c0,7.5-6.1,13.6-13.6,13.6H36.8
+							c-7.5,0-13.6-6.1-13.6-13.6V36.8c0-7.5,6.1-13.6,13.6-13.6h26.4c7.5,0,13.6,6.1,13.6,13.6V63.2z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st1" d="M50,32.4c-9.7,0-17.6,7.9-17.6,17.6S40.3,67.6,50,67.6S67.6,59.7,67.6,50S59.7,32.4,50,32.4z M50,60.7
+							c-5.9,0-10.7-4.8-10.7-10.7S44.1,39.3,50,39.3S60.7,44.1,60.7,50S55.9,60.7,50,60.7z"/>
+					</g>
+				</g>
+				<g>
+					<circle class="st1" cx="68.5" cy="31.3" r="3"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

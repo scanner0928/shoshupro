@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* media */
+$breakSmall: 480px;
+$breakMedium: 768px;
+$breakLarge: 1024px;
+// $breakLarge: 1024px;
+$breakExlarge: 1280px;
+/* inner */
+@mixin MQ($canvas) {
+  @if $canvas == sp-only {
+    @media (max-width: ($breakSmall - 1px)) {
+      @content;
+    }
+  } @else if $canvas == tablet {
+    @media (min-width: $breakMedium) {
+      @content;
+    }
+  } @else if $canvas == laptop {
+    @media (min-width: $breakLarge) {
+      @content;
+    }
+  } @else if $canvas == tablet-only {
+    @media (min-width: $breakMedium) and (max-width: ($breakLarge - 1px)) {
+      @content;
+    }
+  } @else if $canvas == lower-tablet {
+    @media (max-width: ($breakLarge - 1px)) {
+      @content;
+    }
+  } @else if $canvas == laptop-extra {
+    @media (min-width: ($breakExlarge + 1px)) {
+      @content;
+    }
+  }
+}

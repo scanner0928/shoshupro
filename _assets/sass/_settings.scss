@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* Colors */
+
+  /*p1*/
+  // --main-color: #40b5db;
+  // --sub-color: #1c5a9b;
+
+  /*p2*/
+  // --main-color: #47bac5;
+  // --sub-color: #098099;
+  // --homeHeader-color-inner: #dfeaa6;
+  /*p3*/
+  --main-color: #2091c6;
+  --main-color-light: #67ceff;
+  // --main-color: #22a7e5;
+  --sub-color: #166f99;
+  --bg-color: #0f3762;
+  --footer-color: #eee;
+
+  --body-color: #f7f7f7;
+  --html-color: #e6f0f7;
+  --text-color: #222;
+  --border-color: #ccc;
+
+  --btn-color-text: var(--sub-color);
+  --btn-color-bg: #fafafa;
+  --link-color: #333;
+  --strong-color: #ff809d;
+  --caution-color: #f30;
+
+  --header-color-text: #fff;
+  --header-color-bg: var(--main-color);
+  --footer-color-text: #111;
+  --footer-color-bg: #f0f0f0;
+
+  --sitenavi-color-bg: var(--bg-color);
+
+  --toggle-color: var(--sub-color);
+  --toggle-border-color: #f0f0f0;
+  --toggle-icon-color: #fafafa;
+  --toggle-icon-size: 6rem;
+  @include MQ(tablet) {
+    --toggle-icon-size: 7rem;
+  }
+  --th-color: #111;
+  --td-color: #000;
+
+  // --gnavIcon-color: #{$mainColor};
+  // --gnavIconBg-color: #{$subColor};
+
+  // --slickDot-color: #f0f0f0;
+  // --slickDotColorActive: #fff;
+  // --slickDotSize: 15px;
+
+  --viewsiteMaxWidth: 192rem;
+  --header-height: 6rem;
+  --header-padding-top: 2rem;
+  --padding-tableCell: 1em;
+  --inner-maxWidth: 105rem;
+  @include MQ(laptop-extra) {
+    --inner-maxWidth: 125rem;
+  }
+
+  /* spaces */
+
+  --margin-h: 3rem;
+  @include MQ(laptop) {
+    --margin-h: 5rem;
+  }
+  --margin-v: 7vh;
+  @include MQ(laptop) {
+    --margin-v: 10rem;
+  }
+  --padding-h: 3rem;
+  @include MQ(tablet) {
+    --padding-h: 5vw;
+  }
+  @include MQ(laptop) {
+    --padding-h: 5rem;
+  }
+  @include MQ(laptop-extra) {
+    --padding-h: 10rem;
+  }
+  --padding-v: 7vh;
+  @include MQ(tablet) {
+    --padding-v: 10rem;
+  }
+  @include MQ(laptop) {
+    --padding-v: 10rem;
+  }
+}
+
+/*components*/
+$siteHeader: '#siteHeader';
+$siteContents: '#siteContents';
+$siteFooter: '#siteFooter';
+$siteNavi: '#siteNavi';
+
+/* base */
+@import 'commons/base/2.0/reset';
+@import 'commons/base/2.0/functions';
+@import 'commons/base/2.0/gm_reset';
+// @import 'commons/base/emergence_effects';
+@import 'commons/base/2.0/animate';
+// @import 'commons/base/animate';
+// @import 'commons/base/effects';
+// @import "commons/base/wp";
+@import 'commons/base/2.0/styles';
+@import 'commons/base/font-awesome/fontawesome.scss';
+
+/* framework */
+
+// @import 'commons/framework/2.0/theme/_fixed_header-rich_footer.scss';
+// @import 'commons/framework/navigation/sitenavi_control';
+// @import 'framework/navigation/fixed_navi';
+// @import 'commons/framework/navigation/sidebar-fullpage';
+
+/* vendors */
+
+$slick-button-size: 5rem !default;
+$slick-button-sizeSp: $slick-button-size * 0.6 !default;
+$slick-arrow--color: #fff !default;
+$slick-button-from_top: 40% !default;
+$slick-button-from_edge: 0 !default;
+
+@import 'commons/vendors/slick/slick';
+@import 'commons/vendors/slick/slick-theme';
+// @import 'commons/vendors/remodal/remodal';
+// @import 'commons/vendors/remodal/remodal-default-theme';
+
+// @import "vendors/modal-video/_modal-video.min";
